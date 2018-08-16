@@ -1,0 +1,21 @@
+<div id="border_com" class="container mt-5">
+    <h1 class="display-4 mt-4">Chicago, IL</h1>
+    <div class="row">
+      <div class="col">
+        <ul *ngIf="ready" class="mt-4 ml-5">
+          <li>Humidity: {{ city.main.humidity }}</li>
+          <li class="mt-3">Temperature(Average): {{ city.main.temp * 1.8 - 459.67 | number:'1.0-0' }}</li>
+          <li class="mt-3">Temperature(High): {{ city.main.temp_max * 1.8 - 459.67 | number:'1.0-0' }}</li>
+          <li class="mt-3">Temperature(Low): {{ city.main.temp_min * 1.8 - 459.67 | number:'1.0-0' }}</li>
+          <li class="mt-3">Status: {{ city.weather[0].main }}</li>
+        </ul>
+      </div>
+      <div class="col">
+        <img class="mt-4" src="https://images.pexels.com/photos/1036657/pexels-photo-1036657.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="Chicago Image">
+      </div>
+    </div>
+</div>
+
+
+
+

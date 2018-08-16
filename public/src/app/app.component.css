@@ -1,0 +1,13 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+}
+
+#wrapper
+{
+    background: linear-gradient(skyblue, white, skyblue);
+    height: 850px;
+    text-align: center;
+}
+

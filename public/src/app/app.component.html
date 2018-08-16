@@ -1,0 +1,14 @@
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+<div id="wrapper" class="p-4">
+  <h1 class="display-3">Dojo Weather Forecast</h1>
+  <div class="btn-group mt-4" role="group">
+    <button type="button" class="btn btn-danger" [routerLink]="['/seattle']">Seattle, WA</button>
+    <button type="button" class="btn btn-warning" [routerLink]="['/sanjose']">San Jose, CA</button>
+    <button type="button" class="btn btn-success" [routerLink]="['/burbank']">Burbank, CA</button>
+    <button type="button" class="btn btn-primary" [routerLink]="['/dallas']">Dallas, TX</button>
+    <button type="button" class="btn btn-info" [routerLink]="['/dc']">Washington D.C.</button>
+    <button type="button" class="btn btn-dark" [routerLink]="['/chicago']">Chicago, IL</button>
+  </div>
+  <router-outlet></router-outlet>
+</div>

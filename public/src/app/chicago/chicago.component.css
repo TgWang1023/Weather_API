@@ -1,0 +1,23 @@
+#border_com
+{
+    height: 550px;
+    border: 1px solid grey;
+    border-radius: 1%;
+}
+
+    ul
+    {
+        list-style-type: none;
+        text-align: left;
+    }
+
+        li
+        {
+            font-size: 170%;
+        }
+
+    img
+    {
+        max-width: 90%;
+        height: auto;
+    }
